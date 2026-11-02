@@ -5,19 +5,19 @@ void calculateWeightedScore(void) {
 	double midterm, final, assignment;
 	double weighted_score;
 
-	printf("Áß°£°í»ç, ±â¸»°í»ç, °úÁ¦ Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ì¤‘ê°„ê³ ì‚¬, ê¸°ë§ê³ ì‚¬, ê³¼ì œ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 	scanf("%lf %lf %lf", &midterm, &final, &assignment);
 
 	weighted_score = midterm * 0.3 + final * 0.4 + assignment * 0.3;
 
-	printf("°¡Áß Æò±Õ Á¡¼ö: %.2f\n", weighted_score);
+	printf("ê°€ì¤‘ í‰ê·  ì ìˆ˜: %.2f\n", weighted_score);
 }
 
 void calculateBMI(void) {
 	double height, weight;
 	double bmi;
 
-	printf("Å°(m)¿Í ¸ö¹«°Ô(kg)¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("í‚¤(m)ì™€ ëª¸ë¬´ê²Œ(kg)ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 	scanf("%lf %lf", &height, &weight);
 
 	bmi = weight / (height * height);
