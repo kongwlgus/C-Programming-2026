@@ -17,7 +17,7 @@ int isleafyear(int year) {
 void exerc() {
 	int month;
 	int days;
-	printf("¿ù ÀÔ·Â(1~12) : ");
+	printf("ì›” ìž…ë ¥(1~12) : ");
 	scanf("%d", &month);
 	if (month >= 1 && month <= 12) {
 		int year;
@@ -38,9 +38,9 @@ void exerc() {
 			days = 31;
 			break;
 		}
-		printf("%d¿ùÀº %dÀÏ±îÁö ÀÖ½À´Ï´Ù.\n", month, days);
+		printf("%dì›”ì€ %dì¼ê¹Œì§€ ìžˆìŠµë‹ˆë‹¤.\n", month, days);
 	}else {
-		printf("1~12 »çÀÌÀÇ °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä.\n");
+		printf("1~12 ì‚¬ì´ì˜ ê°’ì„ ìž…ë ¥í•˜ì„¸ìš”.\n");
 	}
 }
 int main() {
