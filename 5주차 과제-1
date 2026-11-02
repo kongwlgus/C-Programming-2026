@@ -21,8 +21,8 @@ void exerc3(void) {
 	printf("input year : ");
 	scanf("%d", &year);
 
-	if(isleafyear(year) == 1) printf("�����Դϴ�.");
-	else printf("����Դϴ�.");
+	if(isleafyear(year) == 1) printf("À±³âÀÔ´Ï´Ù.");
+	else printf("Æò³âÀÔ´Ï´Ù.");
 }
 int main(void)
 {
