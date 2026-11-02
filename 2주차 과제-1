@@ -21,9 +21,9 @@ void exercise2(void) {
 void exercise3(void) {
     double r, area;
 	scanf("%lf", &r);
-    printf("¹İÁö¸§À» ÀÔ·ÂÇÏ¼¼¿ä.");
+    printf("ë°˜ì§€ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”.");
     area = 3.14 * r * r;
-    printf("¿øÀÇ µÑ·¹´Â %.2f is %.2f.\n", r, area);
+    printf("ì›ì˜ ë‘˜ë ˆëŠ” %.2f is %.2f.\n", r, area);
 }
 
 void exercise4(void) {
@@ -33,7 +33,7 @@ void exercise4(void) {
     int minutes = (total % 3600) / 60;
     int seconds = total % 60;
 
-	printf("°á°ú: %d½Ã°£ %dºĞ %dÃÊ\n", hours, minutes, seconds);
+	printf("ê²°ê³¼: %dì‹œê°„ %dë¶„ %dì´ˆ\n", hours, minutes, seconds);
 }
 
 void exercise5(void) {
